@@ -1,0 +1,5 @@
+# Static site: plain HTML/CSS/JS, no build step required.
+# This file overrides the build settings in the Netlify UI.
+[build]
+  command = "echo 'Static site - no build step required'"
+  publish = "."
